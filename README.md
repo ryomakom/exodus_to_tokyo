@@ -109,6 +109,7 @@ moving %>%
   select(pref,value) %>% 
   kableExtra::kable()
 ```
+5都府県における転入超過人数
 
 <table>
  <thead>
@@ -143,6 +144,8 @@ moving %>%
    <td style="text-align:right;"> 5192 </td>
   </tr>
 </tbody>
+</table>
+
 
 ```{r}
 
@@ -159,6 +162,7 @@ moving %>%
 
 ```
 
+鹿児島県の男女の転出超過数
 <table>
  <thead>
   <tr>
