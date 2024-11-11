@@ -8,7 +8,7 @@
 
 ## この文書は
 
-「私は東京で働きたい データが示す日本のいま」と題した3本の記事を朝日新聞デジタルで[発表しました](https://www.asahi.com/rensai/list.html?id=2329&iref=com_matome)。著者はデジタル企画報道部の同僚・[中山美里記者](https://digital.asahi.com/reporter-bio/a4c3f4ab73adacae29a5e10562014d23c27bdd55e2dfb7b7b785d8c51a1a7c71?iref=article_reporter_profile)と私。地方から東京へと移り住む若い女性が増えていることやその背景事情を、住民基本台帳のデータなどから描こうという企画でした。
+「私は東京で働きたい データが示す日本のいま」と題した3本の記事を朝日新聞デジタルで[発表しました](https://www.asahi.com/rensai/list.html?id=2329&iref=com_matome)。筆者はデジタル企画報道部の同僚・[中山美里記者](https://digital.asahi.com/reporter-bio/a4c3f4ab73adacae29a5e10562014d23c27bdd55e2dfb7b7b785d8c51a1a7c71?iref=article_reporter_profile)と私。地方から東京へと移り住む若い女性が増えていることやその背景事情を、住民基本台帳のデータなどから描こうという企画でした。
 
 元となるデータをどう取得し、どう加工したのか。私が担当した範囲について、以下、説明していきます。
 
