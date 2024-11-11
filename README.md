@@ -34,8 +34,8 @@ appId <- "YOUR_ID"
 ```{r}
 
 # ZIPファイルを解凍
-unzip("output/data/population1.zip",exdir=tempdir())
-unzip("output/data/population2.zip",exdir=tempdir())
+unzip("data/population1.zip",exdir=tempdir())
+unzip("data/population2.zip",exdir=tempdir())
 
 # 解凍されたファイルを確認
 csv_files <- list.files(tempdir(), pattern = "\\.csv$", full.names = TRUE)
