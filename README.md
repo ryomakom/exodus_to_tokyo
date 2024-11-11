@@ -67,7 +67,7 @@ pop %>%
 
 ```
 
-![](https://github.com/ryomakom/xxx.jpg)
+![](img/plot1.png)
 
 
 
@@ -260,5 +260,8 @@ wage %>% mutate(year=as.double(str_sub(year,1,4))) %>%
 
 ```
 
-![](https://github.com/ryomakom/xxx.jpg)
+![](img/plot2.png)
+
 以上。
+
+それにしてもe-statのAPIって素晴らしいですね。どんどん広がってもらいたいものです。
