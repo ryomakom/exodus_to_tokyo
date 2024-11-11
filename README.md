@@ -33,7 +33,19 @@ appId <- "YOUR_ID"
 
 ```{r}
 
-pop <- read_csv("data/population.csv")
+# ZIPファイルを解凍
+unzip("output/data/population1.zip",exdir=tempdir())
+unzip("output/data/population2.zip",exdir=tempdir())
+
+# 解凍されたファイルを確認
+csv_files <- list.files(tempdir(), pattern = "\\.csv$", full.names = TRUE)
+
+# ファイルを読み込んで合体してpopというオブジェクトに出力
+pop <- bind_rows(read_csv(csv_files[1]),
+                 read_csv(csv_files[2]))
+
+
+# グラフを描く
 
 pop %>%
   filter(is.na(city),
